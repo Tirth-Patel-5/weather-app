@@ -1,19 +1,5 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-
-
 Weather App
-A simple and responsive frontend application built with React that fetches and displays weather data from the OpenWeatherMap API. The app allows users to search for a city's current weather and 5-day forecast, with a clean UI and a light/dark mode toggle for enhanced user experience.
+A simple and responsive frontend application built with React that fetches and displays weather data from the OpenWeatherMap API. The app allows users to search for a city's current weather and 5-day forecast, with a clean UI for enhanced user experience.
 Features
 
 City Search: Search for weather data by entering a city name.
@@ -58,10 +44,10 @@ The app will automatically use this key for API requests.
 
 
 Run the Application:
-npm start
+ npm run dev
 
 
-The app will open in your default browser at http://localhost:3000.
+The app will open in your default browser at http://localhost:5173.
 
 
 
@@ -79,17 +65,6 @@ The Current Weather section shows the temperature, weather description, and an i
 The Forecast section displays a 5-day forecast with daily details.
 
 
-Toggle Theme:
-
-Click the theme toggle button to switch between light and dark modes.
-
-
-
-Demo
-A short video showcasing the app’s features and explaining the implementation approach is available here: Insert Demo Video Link.
-Note: Please replace the placeholder above with the actual link to your demo video (e.g., Google Drive, YouTube, or Loom).
-Contributing
-Contributions are welcome! To contribute:
 
 Fork the repository.
 Create a new branch (git checkout -b feature/your-feature).
